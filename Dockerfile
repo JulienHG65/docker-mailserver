@@ -1,7 +1,3 @@
-# syntax=docker.io/docker/dockerfile:1
-
-# This Dockerfile provides four stages: stage-base, stage-compile, stage-main and stage-final
-# This is in preparation for more granular stages (eg ClamAV and Fail2Ban split into their own)
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG DOVECOT_COMMUNITY_REPO=0
